@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T17:54:39 IST" name="Suite" finished-at="2024-02-29T17:56:00 IST" duration-ms="80856">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T17:54:39 IST" name="Test" finished-at="2024-02-29T17:56:00 IST" duration-ms="80856">
+      <class name="stepDefinations.hooks">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:stepDefinations.hooks@2ddc9a9f]" started-at="2024-02-29T17:54:40 IST" name="setup" finished-at="2024-02-29T17:54:55 IST" duration-ms="15675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:stepDefinations.hooks@2ddc9a9f]" started-at="2024-02-29T17:55:54 IST" name="close" finished-at="2024-02-29T17:56:00 IST" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- stepDefinations.hooks -->
+      <class name="stepDefinations.DisplayDoctors">
+        <test-method signature="user_present_on_practo_com_website_one()[pri:0, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:54:55 IST" name="user_present_on_practo_com_website_one" finished-at="2024-02-29T17:54:59 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_present_on_practo_com_website_one -->
+        <test-method signature="user_enters_city_bangalore_in_seachbox()[pri:1, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:54:59 IST" name="user_enters_city_bangalore_in_seachbox" finished-at="2024-02-29T17:55:00 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_city_bangalore_in_seachbox -->
+        <test-method signature="user_clicks_on_bangalore_option()[pri:2, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:55:01 IST" name="user_clicks_on_bangalore_option" finished-at="2024-02-29T17:55:01 IST" depends-on-methods="stepDefinations.DisplayDoctors.user_enters_city_bangalore_in_seachbox" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_bangalore_option -->
+        <test-method signature="user_enters_medical_specialist_cardiologist_in_seachbox()[pri:3, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:55:01 IST" name="user_enters_medical_specialist_cardiologist_in_seachbox" finished-at="2024-02-29T17:55:02 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_medical_specialist_cardiologist_in_seachbox -->
+        <test-method signature="user_clicks_on_cardiologist_option()[pri:4, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:55:02 IST" name="user_clicks_on_cardiologist_option" finished-at="2024-02-29T17:55:06 IST" depends-on-methods="stepDefinations.DisplayDoctors.user_enters_medical_specialist_cardiologist_in_seachbox" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_cardiologist_option -->
+        <test-method signature="user_applies_filters()[pri:5, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:55:06 IST" name="user_applies_filters" finished-at="2024-02-29T17:55:12 IST" duration-ms="5552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_applies_filters -->
+        <test-method signature="user_displays_the_first_five_doctors()[pri:6, instance:stepDefinations.DisplayDoctors@69e153c5]" started-at="2024-02-29T17:55:12 IST" name="user_displays_the_first_five_doctors" finished-at="2024-02-29T17:55:22 IST" duration-ms="9798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_displays_the_first_five_doctors -->
+      </class> <!-- stepDefinations.DisplayDoctors -->
+      <class name="stepDefinations.DisplaySurgeries">
+        <test-method signature="user_present_on_practo_com_website()[pri:7, instance:stepDefinations.DisplaySurgeries@173ed316]" started-at="2024-02-29T17:55:22 IST" name="user_present_on_practo_com_website" finished-at="2024-02-29T17:55:22 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_present_on_practo_com_website -->
+        <test-method signature="user_clicks_on_surgeries()[pri:8, instance:stepDefinations.DisplaySurgeries@173ed316]" started-at="2024-02-29T17:55:23 IST" name="user_clicks_on_surgeries" finished-at="2024-02-29T17:55:26 IST" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_surgeries -->
+        <test-method signature="user_displays_the_surgeries_list()[pri:9, instance:stepDefinations.DisplaySurgeries@173ed316]" started-at="2024-02-29T17:55:27 IST" name="user_displays_the_surgeries_list" finished-at="2024-02-29T17:55:29 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_displays_the_surgeries_list -->
+      </class> <!-- stepDefinations.DisplaySurgeries -->
+      <class name="stepDefinations.FormValidation">
+        <test-method signature="user_present_on_practo_com_website_three()[pri:10, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:29 IST" name="user_present_on_practo_com_website_three" finished-at="2024-02-29T17:55:29 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_present_on_practo_com_website_three -->
+        <test-method signature="user_clicks_on_for_corporates()[pri:11, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:30 IST" name="user_clicks_on_for_corporates" finished-at="2024-02-29T17:55:30 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_for_corporates -->
+        <test-method signature="user_clicks_on_health_and_wellness_plan()[pri:12, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:31 IST" name="user_clicks_on_health_and_wellness_plan" finished-at="2024-02-29T17:55:42 IST" duration-ms="11197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_health_and_wellness_plan -->
+        <test-method signature="user_enters_all_non_email_fields_in_the_form()[pri:13, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:43 IST" name="user_enters_all_non_email_fields_in_the_form" finished-at="2024-02-29T17:55:46 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_all_non_email_fields_in_the_form -->
+        <test-method signature="user_enters_invalid_email()[pri:14, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:47 IST" name="user_enters_invalid_email" finished-at="2024-02-29T17:55:47 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_invalid_email -->
+        <test-method signature="validate_if_schedule_a_demo_button_is_disabled()[pri:15, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:48 IST" name="validate_if_schedule_a_demo_button_is_disabled" finished-at="2024-02-29T17:55:49 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_if_schedule_a_demo_button_is_disabled -->
+        <test-method signature="user_enters_valid_email()[pri:16, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:50 IST" name="user_enters_valid_email" finished-at="2024-02-29T17:55:50 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_valid_email -->
+        <test-method signature="user_clicks_on_schedule_a_demo_button()[pri:17, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:51 IST" name="user_clicks_on_schedule_a_demo_button" finished-at="2024-02-29T17:55:52 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_schedule_a_demo_button -->
+        <test-method signature="validate_if_thank_you_message_is_displayed()[pri:18, instance:stepDefinations.FormValidation@25ce9dc4]" started-at="2024-02-29T17:55:53 IST" name="validate_if_thank_you_message_is_displayed" finished-at="2024-02-29T17:55:54 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_if_thank_you_message_is_displayed -->
+      </class> <!-- stepDefinations.FormValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
